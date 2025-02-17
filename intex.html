@@ -1,0 +1,24 @@
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Záverečná práca</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.10.0/dist/umd/supabase.js"></script>
+</head>
+<body>
+    <h1>Záverečná práca</h1>
+    
+    <form id="addLinkForm">
+        <label for="youtubeLink">Pridaj odkaz na YouTube video:</label>
+        <input type="text" id="youtubeLink" placeholder="Zadaj URL videa" required>
+        <button type="submit">Pridať video</button>
+    </form>
+    
+    <h2>Pridané videá</h2>
+    <ul id="videoList">
+        <!-- Odkazy sa tu zobrazia -->
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
